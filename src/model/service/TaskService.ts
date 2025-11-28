@@ -77,4 +77,4 @@ export class TaskService implements ITaskService {
     }
 }
 
-export const localTarkService: TaskService = new TaskService(localTaskRepository);
+export const localTaskService: TaskService = new TaskService(localTaskRepository);
